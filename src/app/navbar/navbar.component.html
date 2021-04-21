@@ -1,4 +1,4 @@
-<mat-toolbar>
+<!-- <mat-toolbar>
   <img
     width="175x"
     height="43px"
@@ -34,51 +34,90 @@
       <i class="fa fa-bars"></i>
     </a>
     <button class="signin_button">SIGN IN</button>
+  </div> -->
+<!-- </mat-toolbar> -->
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <img src="assets/logo.png" width="175x" height="43px" />
+
+    <a
+      role="button"
+      class="navbar-burger"
+      aria-label="menu"
+      aria-expanded="false"
+      data-target="navbarBasicExample"
+    >
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
   </div>
-</mat-toolbar>
 
-<!-- <div class="topnav" id="myTopnav">
-  <a href="#news">
-    <img
-      width="150x"
-      height="37px"
-      class="navbar_image"
-      src="assets/logo.png"
-      alt=""
-    />
-  </a> -->
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <select
+        id="branch"
+        name="branch"
+        ngModel
+        class="form-control select_city"
+      >
+        <option value="1">City</option>
+        <option value="1">CSE</option>
+        <option value="2">ETC</option>
+        <option value="3">Mechanical</option>
+        <option value="4">Electrical</option>
+      </select>
 
-<!-- <a href="#news" class="margi_style">
-    <select id="branch" name="branch" ngModel class="form-control select_city">
-      <option value="1">City</option>
-      <option value="1">CSE</option>
-      <option value="2">ETC</option>
-      <option value="3">Mechanical</option>
-      <option value="4">Electrical</option>
-    </select>
-  </a>
-  <a href="#news" class="margi_style">
-    <div class="navbar-search">
-      <input
-        class="navbar-input"
-        type="text"
-        placeholder="Search here..."
-        name=""
-      />
+      <div class="navbar-search">
+        <input
+          class="navbar-input"
+          type="text"
+          placeholder="Search here..."
+          name=""
+        />
+      </div>
+      <button class="navbar-search-btn">
+        <i class="fa fa-search"></i>
+      </button>
     </div>
-  </a>
-  <a href="#news" class="margi_style">
-    <button class="navbar-search-btn"><i class="fa fa-search"></i></button>
-  </a>
 
-  <a href="#news">HOME</a>
-  <a href="#contact">SELL</a>
-  <a href="#about">BUY</a>
-  <a href="#about">HELP</a>
-  <a href="#about">LOGIN</a>
-  <a href="javascript:void(0);" class="icon" (click)="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-  <button class="signin_button">SIGN IN</button>
+    <div class="navbar-end">
+      <a class="navbar-item"> Home </a>
+      <a class="navbar-item"> sell </a>
+      <a class="navbar-item"> Buy </a>
+      <a class="navbar-item"> Help </a>
+      <a class="navbar-item"> Login </a>
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button signup">
+            <strong>Sign up</strong>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<div>
+  <!-- <div class="card">
+    <div class="card-content">
+      <p class="title">
+        “There are two hard things in computer science: cache invalidation,
+        naming things, and off-by-one errors.”
+      </p>
+      <p class="subtitle">Jeff Atwood</p>
+    </div> -->
+  <!-- <footer class="card-footer">
+      <p class="card-footer-item">
+        <span>
+          View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+        </span>
+      </p>
+      <p class="card-footer-item">
+        <span>
+          Share on <a href="#">Facebook</a>
+        </span>
+      </p>
+    </footer> -->
+  <!-- </div>
+</div> -->
 </div>
-<script></script> -->
