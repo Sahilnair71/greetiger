@@ -46,7 +46,10 @@
 img {
   max-width: 100%;
   max-height: 100%;
-  display: block; /* remove extra space below image */
+  display: block;
+}
+.card-image {
+  object-fit: cover;
 }
 .text_line2_allin {
   margin-top: 2%;
@@ -60,7 +63,7 @@ img {
 }
 
 .select_city {
-  background-color: white;
+  background-color: transparent;
   border-radius: 0;
   width: 50%;
   padding: 7px;
@@ -89,6 +92,7 @@ img {
   outline: 0px;
   height: 32px;
   border-radius: 0px;
+  background-color: transparent;
 }
 .button_card_2 {
   background-color: #2a5f72;
@@ -113,4 +117,25 @@ hr {
   color: #2a5f72;
   font-size: 44px;
   margin-top: -2%;
+}
+.iamgeInsideCards {
+  margin-top: 4%;
+}
+
+.card_line_2 {
+  margin-bottom: 4%;
+  /* margin-right: 2%;
+  margin-left: 2%; */
+}
+
+.card_line_3 {
+  padding: 6px;
+}
+.card_line_3_background {
+  background-color: #2a5f72;
+  color: white;
+  min-height: 100%;
+}
+.fonts {
+  font-size: 25px;
 }
