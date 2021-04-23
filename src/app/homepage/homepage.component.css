@@ -109,8 +109,8 @@ img {
 
 hr {
   background-color: red;
-  margin-left: 5%;
-  margin-right: 5%;
+  /* margin-left: 5%; */
+  margin-right: -8%;
 }
 
 .categories {
@@ -123,9 +123,12 @@ hr {
 }
 
 .card_line_2 {
-  margin-bottom: 4%;
-  /* margin-right: 2%;
-  margin-left: 2%; */
+  /* margin-bottom: 4%; */
+  /* margin-right: 5%;
+  margin-left: 5%; */
+}
+.card_line_2_padding {
+  padding: 10px 30px;
 }
 
 .card_line_3 {
