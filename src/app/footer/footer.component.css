@@ -1,0 +1,21 @@
+.footeroverlay {
+  background: url("../../assets/image23_04.PNG") center top no-repeat fixed;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+  position: relative;
+}
+
+.footeroverlay::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(235, 150, 150, 0.92);
+  z-index: 9;
+}
+
+.footer div div li {
+  z-index: 999;
+}

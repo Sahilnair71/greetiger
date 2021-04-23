@@ -1,3 +1,6 @@
+.row {
+  margin: 0px;
+}
 .login-page {
   /* top: 0;
   
@@ -10,11 +13,11 @@
   /* background-repeat: no-repeat;
   background-size: cover; */
   /* overflow: hidden; */
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 .title_card_1 {
   color: white;
-  margin-top: 4%;
+  margin-top: 14%;
 }
 .button_card_1 {
   background-color: rgba(255, 0, 0, 0.904);
@@ -29,7 +32,7 @@
 }
 .subtitle_card_1 {
   color: white;
-  margin-top: 4%;
+  /* margin-top: 4%; */
   font-size: 25px;
 }
 
@@ -110,23 +113,20 @@ img {
 hr {
   background-color: red;
   /* margin-left: 5%; */
-  margin-right: -8%;
 }
 
 .categories {
   color: #2a5f72;
   font-size: 44px;
-  margin-top: -2%;
+  margin-top: -1%;
+  text-align: center;
+  margin-left: -5%;
+  margin-right: -5%;
 }
 .iamgeInsideCards {
   margin-top: 4%;
 }
 
-.card_line_2 {
-  /* margin-bottom: 4%; */
-  /* margin-right: 5%;
-  margin-left: 5%; */
-}
 .card_line_2_padding {
   padding: 10px 30px;
 }
@@ -141,4 +141,102 @@ hr {
 }
 .fonts {
   font-size: 25px;
+}
+.colnew10 {
+  width: 10%;
+}
+.t-center {
+  letter-spacing: 3.3vw;
+}
+
+.imageContainer {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-image: url("../../assets/tempsnip.png");
+}
+
+.image {
+  position: relative;
+  width: 100%; /* for IE 6 */
+}
+
+h2 {
+  position: absolute;
+  top: 37%;
+  left: 69%;
+  width: 100%;
+  font-size: 39px;
+  font-weight: 500;
+}
+h1 {
+  position: absolute;
+  top: 46%;
+  left: 69%;
+  width: 100%;
+  font-size: 39px;
+  font-weight: 400;
+}
+
+.seller_h1 {
+  position: absolute;
+  top: 30%;
+  left: 8%;
+  width: 100%;
+  font-size: 39px;
+  font-weight: 400;
+}
+
+.seller_h2 {
+  position: absolute;
+  top: 11%;
+  left: 8%;
+  width: 100%;
+  font-size: 39px;
+  font-weight: 400;
+}
+
+.button_create_buyer_account {
+  background-color: #2a5f72;
+  color: white;
+  font-size: 16px;
+
+  border: none;
+  padding-left: 3%;
+  padding-right: 3%;
+  border-radius: 13px;
+  margin-top: -23%;
+  margin-left: 69%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  position: absolute;
+}
+
+.button_seller_buyer_account {
+  background-color: #2a5f72;
+  color: white;
+  font-size: 16px;
+
+  border: none;
+  padding-left: 3%;
+  padding-right: 3%;
+  border-radius: 13px;
+  margin-top: -11%;
+  margin-left: 8%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  position: absolute;
+}
+
+@media only screen and (min-width: 62em) {
+  .sahiltag {
+    flex-basis: 25%;
+    max-width: 25%;
+    padding: 0px;
+  }
+}
+@media screen and (min-width: 1350px) {
+  .t-center {
+    letter-spacing: 3.6vw;
+  }
 }
