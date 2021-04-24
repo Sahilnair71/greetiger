@@ -68,25 +68,26 @@ img {
 .select_city {
   background-color: transparent;
   border-radius: 0;
-  width: 50%;
+  width: 100%;
   padding: 7px;
-  margin-top: 6%;
+  margin-top: 11%;
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style: groove;
   outline-style: none;
-  margin-left: 35%;
+  margin-left: 0%;
 }
 .navbar-search {
   margin-left: 10px;
   margin-top: 3%;
   height: 50px;
-  width: 70%;
+  width: 95%;
   outline: 0px;
 }
 .navbar-input {
   font-size: 15px;
+  width: 100%;
   margin-right: 0%;
   border-top-style: hidden;
   border-right-style: hidden;
@@ -128,7 +129,7 @@ hr {
 }
 
 .card_line_2_padding {
-  padding: 10px 30px;
+  padding: 15px 15px;
 }
 
 .card_line_3 {
@@ -164,7 +165,6 @@ hr {
 h2 {
   position: absolute;
   top: 37%;
-  left: 69%;
   width: 100%;
   font-size: 39px;
   font-weight: 500;
@@ -172,27 +172,31 @@ h2 {
 h1 {
   position: absolute;
   top: 46%;
-  left: 69%;
   width: 100%;
   font-size: 39px;
   font-weight: 400;
 }
 
+.new_buy {
+  left: 0%;
+  padding-left: 69%;
+  font-size: 2.6vw;
+}
 .seller_h1 {
   position: absolute;
   top: 30%;
-  left: 8%;
+  padding-left: 8%;
   width: 100%;
-  font-size: 39px;
+  font-size: 2.6vw;
   font-weight: 400;
 }
 
 .seller_h2 {
   position: absolute;
   top: 11%;
-  left: 8%;
+  padding-left: 8%;
   width: 100%;
-  font-size: 39px;
+  font-size: 2.6vw;
   font-weight: 400;
 }
 
@@ -211,6 +215,11 @@ h1 {
   padding-bottom: 1%;
   position: absolute;
 }
+.all_rights_footer {
+  padding-left: 2vw;
+  padding-top: 1vw;
+  font-size: 2vw;
+}
 
 .button_seller_buyer_account {
   background-color: #2a5f72;
@@ -227,6 +236,28 @@ h1 {
   padding-bottom: 1%;
   position: absolute;
 }
+.image_1 {
+  position: relative;
+}
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2a5f72;
+  color: white;
+  opacity: 0.9;
+}
+
+.flex {
+  padding-left: 27vw;
+  font-size: 2vw;
+  padding-top: 1vw;
+}
+.spcing_icons {
+  letter-spacing: 1vw;
+}
 
 @media only screen and (min-width: 62em) {
   .sahiltag {
@@ -238,5 +269,16 @@ h1 {
 @media screen and (min-width: 1350px) {
   .t-center {
     letter-spacing: 3.6vw;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+  .button_card_2 {
+    margin-top: -10%;
+  }
+}
+@media screen and (min-width: 1300px) and (max-width: 1600px) {
+  .button_card_2 {
+    margin-top: -7%;
   }
 }

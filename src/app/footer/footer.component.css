@@ -1,21 +1,39 @@
-.footeroverlay {
-  background: url("../../assets/image23_04.PNG") center top no-repeat fixed;
-  background-size: cover;
-  padding: 60px 0 40px 0;
+.image_1 {
   position: relative;
 }
-
-.footeroverlay::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(235, 150, 150, 0.92);
-  z-index: 9;
+.figure {
+  background-color: #364044;
+  position: relative;
+  width: 100%;
+}
+.all_rights_footer {
+  padding-left: 14vh;
+  padding-top: 2vh;
+  font-size: 4vh;
 }
 
-.footer div div li {
-  z-index: 999;
+.seller_h2 {
+  position: absolute;
+  top: 11%;
+  padding-left: 8%;
+  width: 100%;
+  font-size: 2.6vw;
+  font-weight: 400;
+  z-index: 10;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2a5f72;
+  color: white;
+  opacity: 0.9;
+}
+
+.row_footer {
+  margin-right: 0;
+  margin-left: 0;
 }
