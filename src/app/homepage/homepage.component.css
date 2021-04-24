@@ -217,7 +217,7 @@ h1 {
 }
 .all_rights_footer {
   padding-left: 2vw;
-  padding-top: 1vw;
+
   font-size: 2vw;
 }
 
@@ -249,11 +249,13 @@ h1 {
   color: white;
   opacity: 0.9;
 }
+.font-size {
+  font-size: 1.5vw;
+}
 
 .flex {
   padding-left: 27vw;
   font-size: 2vw;
-  padding-top: 1vw;
 }
 .spcing_icons {
   letter-spacing: 1vw;

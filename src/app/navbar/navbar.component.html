@@ -1,59 +1,60 @@
-<!-- <mat-toolbar>
-  <img
-    width="175x"
-    height="43px"
-    class="navbar_image"
-    src="assets/logo.png"
-    alt=""
-  />
-  <select id="branch" name="branch" ngModel class="form-control select_city">
-    <option value="1">City</option>
-    <option value="1">CSE</option>
-    <option value="2">ETC</option>
-    <option value="3">Mechanical</option>
-    <option value="4">Electrical</option>
-  </select>
-
-  <div class="navbar-search">
-    <input
-      class="navbar-input"
-      type="text"
-      placeholder="Search here..."
-      name=""
-    />
-  </div>
-  <button class="navbar-search-btn"><i class="fa fa-search"></i></button>
-
-  <div class="topnav" id="myTopnav">
-    <a href="#news">HOME</a>
-    <a href="#contact">SELL</a>
-    <a href="#about">BUY</a>
-    <a href="#about">HELP</a>
-    <a href="#about">LOGIN</a>
-    <a href="javascript:void(0);" class="icon" (click)="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-    <button class="signin_button">SIGN IN</button>
-  </div> -->
-<!-- </mat-toolbar> -->
 <nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <img src="assets/logo.png" width="175x" height="43px" />
+  <img src="assets/logo.png" width="175x" height="43px" />
 
-    <a
-      role="button"
-      class="navbar-burger"
-      aria-label="menu"
-      aria-expanded="false"
-      data-target="navbarBasicExample"
-    >
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
+  <a
+    role="button"
+    class="navbar-burger"
+    aria-label="menu"
+    aria-expanded="false"
+    data-target="navbarBasicExample"
+  >
+    <span aria-hidden="true"></span>
+    <span aria-hidden="true"></span>
+    <span aria-hidden="true"></span>
+  </a>
+
+  <div class="navbar-menu">
+    <div class="menu_padding">
+      <select
+        id="branch"
+        name="branch"
+        ngModel
+        class="form-control select_city"
+      >
+        <option value="1">City</option>
+        <option value="1">CSE</option>
+        <option value="2">ETC</option>
+        <option value="3">Mechanical</option>
+        <option value="4">Electrical</option>
+      </select>
+    </div>
+    <div class="navbar-search">
+      <input
+        class="navbar-input"
+        type="text"
+        placeholder="Search here..."
+        name=""
+      />
+    </div>
+    <button class="navbar-search-btn">
+      <i class="fa fa-search"></i>
+    </button>
+    <a class="navbar-item" style="padding-left: 5%"> Home </a>
+    <a class="navbar-item" style="padding-left: 5%"> sell </a>
+    <a class="navbar-item" style="padding-left: 5%"> Buy </a>
+    <a class="navbar-item" style="padding-left: 5%"> Help </a>
+    <a class="navbar-item" style="padding-left: 5%"> Login </a>
+    <div class="navbar-item" style="padding-left: 5%">
+      <div class="buttons">
+        <a class="button signup">
+          <strong>Sign up</strong>
+        </a>
+      </div>
+    </div>
   </div>
+</nav>
 
-  <div id="navbarBasicExample" class="navbar-menu">
+<!-- <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-end">
       <select
         id="branch"
@@ -92,29 +93,4 @@
         </div>
       </div>
     </div>
-  </div>
-</nav>
-<div>
-  <!-- <div class="card">
-    <div class="card-content">
-      <p class="title">
-        “There are two hard things in computer science: cache invalidation,
-        naming things, and off-by-one errors.”
-      </p>
-      <p class="subtitle">Jeff Atwood</p>
-    </div> -->
-  <!-- <footer class="card-footer">
-      <p class="card-footer-item">
-        <span>
-          View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
-        </span>
-      </p>
-      <p class="card-footer-item">
-        <span>
-          Share on <a href="#">Facebook</a>
-        </span>
-      </p>
-    </footer> -->
-  <!-- </div>
-</div> -->
-</div>
+  </div> -->
