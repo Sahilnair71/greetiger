@@ -1,5 +1,7 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
-  <img src="assets/logo.png" width="175x" height="43px" />
+  <div class="brand_adjustment">
+    <img src="assets/logo.png" width="175x" height="43px" />
+  </div>
 
   <a
     role="button"
@@ -30,21 +32,24 @@
     </div>
     <div class="navbar-search">
       <input
-        class="navbar-input"
+        class="navbar-input navbarip_0105"
         type="text"
-        placeholder="Search here..."
+        placeholder="&#xF002; Search"
+        style="font-family: Arial, FontAwesome"
         name=""
       />
     </div>
-    <button class="navbar-search-btn">
-      <i class="fa fa-search"></i>
-    </button>
-    <a class="navbar-item" style="padding-left: 5%"> Home </a>
-    <a class="navbar-item" style="padding-left: 5%"> sell </a>
-    <a class="navbar-item" style="padding-left: 5%"> Buy </a>
-    <a class="navbar-item" style="padding-left: 5%"> Help </a>
-    <a class="navbar-item" style="padding-left: 5%"> Login </a>
-    <div class="navbar-item" style="padding-left: 5%">
+    <div class="navbar_search_button_div">
+      <button class="navbar-search-btn">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+    <a class="navbar-item navbaritem"> Home </a>
+    <a class="navbar-item navbaritem"> sell </a>
+    <a class="navbar-item navbaritem"> Buy </a>
+    <a class="navbar-item navbaritem"> Help </a>
+    <a class="navbar-item navbaritem"> Login </a>
+    <div class="navbar-item navbaritem">
       <div class="buttons">
         <a class="button signup">
           <strong>Sign up</strong>
@@ -53,44 +58,3 @@
     </div>
   </div>
 </nav>
-
-<!-- <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-end">
-      <select
-        id="branch"
-        name="branch"
-        ngModel
-        class="form-control select_city"
-      >
-        <option value="1">City</option>
-        <option value="1">CSE</option>
-        <option value="2">ETC</option>
-        <option value="3">Mechanical</option>
-        <option value="4">Electrical</option>
-      </select>
-
-      <div class="navbar-search">
-        <input
-          class="navbar-input"
-          type="text"
-          placeholder="Search here..."
-          name=""
-        />
-      </div>
-      <button class="navbar-search-btn">
-        <i class="fa fa-search"></i>
-      </button>
-      <a class="navbar-item"> Home </a>
-      <a class="navbar-item"> sell </a>
-      <a class="navbar-item"> Buy </a>
-      <a class="navbar-item"> Help </a>
-      <a class="navbar-item"> Login </a>
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button signup">
-            <strong>Sign up</strong>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div> -->

@@ -19,6 +19,10 @@
   color: white;
   margin-top: 14%;
 }
+.icon_for_y_buy_from_Green_tiger {
+  padding-left: 41%;
+  padding-bottom: 16%;
+}
 .button_card_1 {
   background-color: rgba(255, 0, 0, 0.904);
   color: white;
@@ -58,8 +62,11 @@ img {
   margin-top: 2%;
 }
 .text_line2 {
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 32px;
+  font-weight: 600;
+  color: #000000;
+  opacity: 1;
+  font-family: "Roboto";
 }
 .text_line3 {
   font-size: 25px;
@@ -93,6 +100,7 @@ img {
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style: groove;
+  border-bottom: 1px solid black;
   outline: 0px;
   height: 32px;
   border-radius: 0px;
@@ -126,6 +134,9 @@ hr {
 }
 .iamgeInsideCards {
   margin-top: 4%;
+  font-family: "Roboto";
+  color: #000000;
+  opacity: 1;
 }
 
 .card_line_2_padding {
@@ -141,7 +152,10 @@ hr {
   min-height: 100%;
 }
 .fonts {
-  font-size: 25px;
+  font-size: 29px;
+  font-family: "Roboto";
+  color: #ffffff;
+  opacity: 1;
 }
 .colnew10 {
   width: 10%;
@@ -181,14 +195,21 @@ h1 {
   left: 0%;
   padding-left: 69%;
   font-size: 2.6vw;
+  font-weight: 500;
+  font-family: "Roboto";
+  color: #000000;
+  opacity: 1;
 }
 .seller_h1 {
   position: absolute;
   top: 30%;
   padding-left: 8%;
   width: 100%;
-  font-size: 2.6vw;
-  font-weight: 400;
+  font-size: 2.5vw;
+  font-weight: 500;
+  font-family: "Roboto";
+  color: #000000;
+  opacity: 1;
 }
 
 .seller_h2 {
@@ -197,12 +218,15 @@ h1 {
   padding-left: 8%;
   width: 100%;
   font-size: 2.6vw;
-  font-weight: 400;
+  font-weight: 600;
+  font-family: "Roboto";
+  color: #000000;
+  opacity: 1;
 }
 
 .button_create_buyer_account {
   background-color: #2a5f72;
-  color: white;
+
   font-size: 16px;
 
   border: none;
@@ -214,6 +238,9 @@ h1 {
   padding-top: 1%;
   padding-bottom: 1%;
   position: absolute;
+  color: #ffffff;
+  opacity: 1;
+  font-family: "Roboto";
 }
 .all_rights_footer {
   padding-left: 2vw;
@@ -223,9 +250,8 @@ h1 {
 
 .button_seller_buyer_account {
   background-color: #2a5f72;
-  color: white;
+  /* color: white; */
   font-size: 16px;
-
   border: none;
   padding-left: 3%;
   padding-right: 3%;
@@ -235,9 +261,19 @@ h1 {
   padding-top: 1%;
   padding-bottom: 1%;
   position: absolute;
+  color: #ffffff;
+  opacity: 1;
+  font-family: "Roboto";
 }
 .image_1 {
   position: relative;
+  background: #295f73;
+}
+.list_heading {
+  font-size: 23px;
+  font-weight: 570;
+  color: #ffffff;
+  opacity: 1;
 }
 .image__overlay {
   position: absolute;
@@ -245,12 +281,12 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #2a5f72;
   color: white;
-  opacity: 0.9;
+  opacity: 1;
 }
 .font-size {
   font-size: 1.5vw;
+  font-family: "Roboto";
 }
 
 .flex {
